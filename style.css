@@ -5,6 +5,7 @@ body {
   .navbar {
     overflow: hidden;
     background-color: #333;
+    width: 2100px;
   }
   
   .navbar a {
@@ -57,8 +58,18 @@ body {
   .dropdown-content a:hover {
     background-color: #ddd;
   }
+
+  .img-magnifier-container {
+    position: relative;
+  }
   
-  .dropdown:hover .dropdown-content {
-    display: block;
+  .img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    cursor:default;
+    /*Установите размер стекла лупы:*/
+    width: 500px;
+
+    height: 50px;
   }
   
